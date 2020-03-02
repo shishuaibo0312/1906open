@@ -23,6 +23,8 @@ Route::prefix('index')->group(function () {
 	Route::post('regist_do','Index\RegistController@regist_do');
 	Route::get('login','Index\LoginController@login');					//登录
 	Route::post('login_do','Index\LoginController@login_do');
+	Route::get('githublogin','Index\LoginController@githublogin');		//第三方登录
+	Route::get('getcode','Index\LoginController@getcode');
 	Route::get('usercenter','Index\UserCenter@usercenter');				//用户中心
 	Route::get('getaccesstoken','Index\UserCenter@getaccesstoken');		//获取access_token
 	Route::get('testat','Index\UserCenter@testat')->middleware('access_token');			//测试access是否有效

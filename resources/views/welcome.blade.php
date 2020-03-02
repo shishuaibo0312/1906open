@@ -87,8 +87,9 @@
                 <div class="links">
                     <a href="{{url('/index/regist')}}">注册</a>
                     <a href="{{url('/index/login')}}">登录</a>
-                   <!--  <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
+                    <hr>
+                    <a href=" https://github.com/login/oauth/authorize?client_id=39634ef1f5f4b95f245a&redirect_uri=http://open.1906.com/index/getcode">HUB登录</a>
+                   <!--  <a href="https://blog.laravel.com">Blog</a>
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
